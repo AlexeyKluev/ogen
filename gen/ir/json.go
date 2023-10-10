@@ -5,10 +5,10 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/ogen-go/ogen/internal/bitset"
-	"github.com/ogen-go/ogen/internal/naming"
-	"github.com/ogen-go/ogen/internal/xslices"
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/AlexeyKluev/ogen/internal/bitset"
+	"github.com/AlexeyKluev/ogen/internal/naming"
+	"github.com/AlexeyKluev/ogen/internal/xslices"
+	"github.com/AlexeyKluev/ogen/jsonschema"
 )
 
 // JSON returns json encoding/decoding rules for t.

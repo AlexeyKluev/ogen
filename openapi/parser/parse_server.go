@@ -7,9 +7,9 @@ import (
 	"github.com/go-faster/errors"
 	"golang.org/x/exp/slices"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/internal/jsonpointer"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/AlexeyKluev/ogen"
+	"github.com/AlexeyKluev/ogen/internal/jsonpointer"
+	"github.com/AlexeyKluev/ogen/openapi"
 )
 
 func (p *parser) parseServers(servers []ogen.Server, ctx *jsonpointer.ResolveCtx) ([]openapi.Server, error) {

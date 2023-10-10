@@ -7,8 +7,8 @@ import (
 	"github.com/go-faster/jx"
 	"golang.org/x/exp/slices"
 
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/AlexeyKluev/ogen/jsonschema"
+	"github.com/AlexeyKluev/ogen/openapi"
 )
 
 // NewSpec returns a new Spec.

@@ -5,12 +5,12 @@ package api
 import (
 	"net/http"
 
-	custom2 "github.com/ogen-go/ogen/internal/integration/customformats/phonetype"
-	custom3 "github.com/ogen-go/ogen/internal/integration/customformats/rgbatype"
-	"github.com/ogen-go/ogen/middleware"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/uri"
-	"github.com/ogen-go/ogen/validate"
+	custom2 "github.com/AlexeyKluev/ogen/internal/integration/customformats/phonetype"
+	custom3 "github.com/AlexeyKluev/ogen/internal/integration/customformats/rgbatype"
+	"github.com/AlexeyKluev/ogen/middleware"
+	"github.com/AlexeyKluev/ogen/ogenerrors"
+	"github.com/AlexeyKluev/ogen/uri"
+	"github.com/AlexeyKluev/ogen/validate"
 )
 
 // PhoneGetParams is parameters of GET /phone operation.

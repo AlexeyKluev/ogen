@@ -16,11 +16,11 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/exp/slices"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/internal/location"
-	"github.com/ogen-go/ogen/internal/urlpath"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/AlexeyKluev/ogen/gen/ir"
+	"github.com/AlexeyKluev/ogen/internal/location"
+	"github.com/AlexeyKluev/ogen/internal/urlpath"
+	"github.com/AlexeyKluev/ogen/jsonschema"
+	"github.com/AlexeyKluev/ogen/openapi"
 )
 
 // RemoteOptions is remote reference resolver options.

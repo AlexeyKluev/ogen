@@ -7,7 +7,7 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/gen"
+	"github.com/AlexeyKluev/ogen/gen"
 )
 
 // PhoneFormat defines a custom format for phone numbers.

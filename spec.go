@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-faster/yaml"
 
-	"github.com/ogen-go/ogen/internal/location"
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/AlexeyKluev/ogen/internal/location"
+	"github.com/AlexeyKluev/ogen/jsonschema"
 )
 
 type (

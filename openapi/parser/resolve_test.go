@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/AlexeyKluev/ogen"
+	"github.com/AlexeyKluev/ogen/jsonschema"
+	"github.com/AlexeyKluev/ogen/openapi"
 )
 
 var testRootURL = &url.URL{

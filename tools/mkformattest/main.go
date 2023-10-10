@@ -9,9 +9,9 @@ import (
 	"github.com/go-faster/errors"
 	"golang.org/x/exp/slices"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/gen"
-	"github.com/ogen-go/ogen/gen/ir"
+	"github.com/AlexeyKluev/ogen"
+	"github.com/AlexeyKluev/ogen/gen"
+	"github.com/AlexeyKluev/ogen/gen/ir"
 )
 
 func generateSpec() *ogen.Spec {

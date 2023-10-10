@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/AlexeyKluev/ogen"
+	"github.com/AlexeyKluev/ogen/internal/location"
+	"github.com/AlexeyKluev/ogen/jsonschema"
+	"github.com/AlexeyKluev/ogen/openapi"
 	"github.com/go-faster/errors"
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/internal/location"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/openapi"
 )
 
 // Expand generates an expanded ogen.Spec from given api.

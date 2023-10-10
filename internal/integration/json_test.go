@@ -9,8 +9,8 @@ import (
 	"github.com/go-faster/jx"
 	"github.com/stretchr/testify/require"
 
-	api "github.com/ogen-go/ogen/internal/integration/sample_api"
-	"github.com/ogen-go/ogen/json"
+	api "github.com/AlexeyKluev/ogen/internal/integration/sample_api"
+	"github.com/AlexeyKluev/ogen/json"
 )
 
 func decodeObject(t testing.TB, data []byte, v json.Unmarshaler) {

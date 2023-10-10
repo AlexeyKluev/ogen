@@ -1,4 +1,4 @@
-module github.com/ogen-go/ogen
+module github.com/AlexeyKluev/ogen
 
 go 1.20
 

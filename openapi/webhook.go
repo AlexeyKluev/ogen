@@ -1,6 +1,6 @@
 package openapi
 
-import "github.com/ogen-go/ogen/internal/location"
+import "github.com/AlexeyKluev/ogen/internal/location"
 
 // Webhook is an OpenAPI Webhook.
 type Webhook struct {

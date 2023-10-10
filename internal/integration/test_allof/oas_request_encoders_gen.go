@@ -11,9 +11,9 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/conv"
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/uri"
+	"github.com/AlexeyKluev/ogen/conv"
+	ht "github.com/AlexeyKluev/ogen/http"
+	"github.com/AlexeyKluev/ogen/uri"
 )
 
 func encodeNullableStringsRequest(

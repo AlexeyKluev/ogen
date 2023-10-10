@@ -14,8 +14,8 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.19.0"
 	"go.opentelemetry.io/otel/trace"
 
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/middleware"
+	ht "github.com/AlexeyKluev/ogen/http"
+	"github.com/AlexeyKluev/ogen/middleware"
 )
 
 // handleFooGetRequest handles GET /foo operation.

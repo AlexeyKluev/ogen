@@ -1,7 +1,7 @@
 package examples
 
 import (
-	_ "github.com/ogen-go/ogen"
+	_ "github.com/AlexeyKluev/ogen"
 )
 
 // Generate schemas:

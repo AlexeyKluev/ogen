@@ -8,9 +8,9 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/conv"
-	"github.com/ogen-go/ogen/uri"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/AlexeyKluev/ogen/conv"
+	"github.com/AlexeyKluev/ogen/uri"
+	"github.com/AlexeyKluev/ogen/validate"
 )
 
 // EncodeURI encodes TestFormDeepObject as URI form.

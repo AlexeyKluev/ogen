@@ -10,8 +10,8 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/AlexeyKluev/ogen/ogenerrors"
+	"github.com/AlexeyKluev/ogen/validate"
 )
 
 func decodeCachingResponse(resp *http.Response) (res WorldObjects, _ error) {

@@ -9,14 +9,14 @@ import (
 	"go.opentelemetry.io/otel/metric"
 	"go.opentelemetry.io/otel/trace"
 
-	ht "github.com/ogen-go/ogen/http"
-	custom0 "github.com/ogen-go/ogen/internal/integration/customformats/eventtype"
-	custom1 "github.com/ogen-go/ogen/internal/integration/customformats/hextype"
-	custom2 "github.com/ogen-go/ogen/internal/integration/customformats/phonetype"
-	custom3 "github.com/ogen-go/ogen/internal/integration/customformats/rgbatype"
-	"github.com/ogen-go/ogen/middleware"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/otelogen"
+	ht "github.com/AlexeyKluev/ogen/http"
+	custom0 "github.com/AlexeyKluev/ogen/internal/integration/customformats/eventtype"
+	custom1 "github.com/AlexeyKluev/ogen/internal/integration/customformats/hextype"
+	custom2 "github.com/AlexeyKluev/ogen/internal/integration/customformats/phonetype"
+	custom3 "github.com/AlexeyKluev/ogen/internal/integration/customformats/rgbatype"
+	"github.com/AlexeyKluev/ogen/middleware"
+	"github.com/AlexeyKluev/ogen/ogenerrors"
+	"github.com/AlexeyKluev/ogen/otelogen"
 )
 
 var (

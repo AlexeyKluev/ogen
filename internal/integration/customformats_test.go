@@ -8,9 +8,9 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen/internal/integration/customformats/phonetype"
-	"github.com/ogen-go/ogen/internal/integration/customformats/rgbatype"
-	api "github.com/ogen-go/ogen/internal/integration/test_customformats"
+	"github.com/AlexeyKluev/ogen/internal/integration/customformats/phonetype"
+	"github.com/AlexeyKluev/ogen/internal/integration/customformats/rgbatype"
+	api "github.com/AlexeyKluev/ogen/internal/integration/test_customformats"
 )
 
 type testCustomFormats struct{}

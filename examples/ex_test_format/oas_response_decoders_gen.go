@@ -14,9 +14,9 @@ import (
 	"github.com/go-faster/jx"
 	"github.com/google/uuid"
 
-	"github.com/ogen-go/ogen/json"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/AlexeyKluev/ogen/json"
+	"github.com/AlexeyKluev/ogen/ogenerrors"
+	"github.com/AlexeyKluev/ogen/validate"
 )
 
 func decodeTestQueryParameterResponse(resp *http.Response) (res *Error, _ error) {

@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	api "github.com/ogen-go/ogen/internal/integration/test_allof"
+	api "github.com/AlexeyKluev/ogen/internal/integration/test_allof"
 )
 
 type allofTestServer struct {

@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/ogen-go/ogen/uri"
+	"github.com/AlexeyKluev/ogen/uri"
 )
 
 func (s *Server) cutPrefix(path string) (string, bool) {

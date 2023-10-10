@@ -3,9 +3,9 @@ package parser
 import (
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/internal/jsonpointer"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/AlexeyKluev/ogen"
+	"github.com/AlexeyKluev/ogen/internal/jsonpointer"
+	"github.com/AlexeyKluev/ogen/openapi"
 )
 
 func (p *parser) parseRequestBody(body *ogen.RequestBody, ctx *jsonpointer.ResolveCtx) (_ *openapi.RequestBody, rerr error) {

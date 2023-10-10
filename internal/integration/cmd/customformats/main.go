@@ -8,17 +8,17 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/gen"
-	"github.com/ogen-go/ogen/gen/genfs"
-	"github.com/ogen-go/ogen/internal/integration/customformats/eventtype"
-	"github.com/ogen-go/ogen/internal/integration/customformats/hextype"
-	"github.com/ogen-go/ogen/internal/integration/customformats/phonetype"
-	"github.com/ogen-go/ogen/internal/integration/customformats/rgbatype"
-	"github.com/ogen-go/ogen/internal/location"
-	"github.com/ogen-go/ogen/internal/ogenzap"
-	"github.com/ogen-go/ogen/internal/urlpath"
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/AlexeyKluev/ogen"
+	"github.com/AlexeyKluev/ogen/gen"
+	"github.com/AlexeyKluev/ogen/gen/genfs"
+	"github.com/AlexeyKluev/ogen/internal/integration/customformats/eventtype"
+	"github.com/AlexeyKluev/ogen/internal/integration/customformats/hextype"
+	"github.com/AlexeyKluev/ogen/internal/integration/customformats/phonetype"
+	"github.com/AlexeyKluev/ogen/internal/integration/customformats/rgbatype"
+	"github.com/AlexeyKluev/ogen/internal/location"
+	"github.com/AlexeyKluev/ogen/internal/ogenzap"
+	"github.com/AlexeyKluev/ogen/internal/urlpath"
+	"github.com/AlexeyKluev/ogen/jsonschema"
 )
 
 func run(specPath, targetDir string) error {

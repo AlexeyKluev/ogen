@@ -15,9 +15,9 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.19.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/ogen-go/ogen/conv"
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/uri"
+	"github.com/AlexeyKluev/ogen/conv"
+	ht "github.com/AlexeyKluev/ogen/http"
+	"github.com/AlexeyKluev/ogen/uri"
 )
 
 // Invoker invokes operations described by OpenAPI v3 specification.

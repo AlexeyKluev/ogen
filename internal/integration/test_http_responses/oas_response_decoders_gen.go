@@ -11,11 +11,11 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/conv"
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/uri"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/AlexeyKluev/ogen/conv"
+	ht "github.com/AlexeyKluev/ogen/http"
+	"github.com/AlexeyKluev/ogen/ogenerrors"
+	"github.com/AlexeyKluev/ogen/uri"
+	"github.com/AlexeyKluev/ogen/validate"
 )
 
 func decodeAnyContentTypeBinaryStringSchemaResponse(resp *http.Response) (res AnyContentTypeBinaryStringSchemaOK, _ error) {

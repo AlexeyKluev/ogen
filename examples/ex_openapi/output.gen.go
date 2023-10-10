@@ -10,8 +10,8 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/ogenregex"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/AlexeyKluev/ogen/ogenregex"
+	"github.com/AlexeyKluev/ogen/validate"
 )
 
 var regexMap = map[string]ogenregex.Regexp{

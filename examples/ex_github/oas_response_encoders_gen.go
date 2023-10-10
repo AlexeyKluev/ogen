@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/ogen-go/ogen/conv"
-	"github.com/ogen-go/ogen/uri"
+	"github.com/AlexeyKluev/ogen/conv"
+	"github.com/AlexeyKluev/ogen/uri"
 )
 
 func encodeActionsAddRepoAccessToSelfHostedRunnerGroupInOrgResponse(response *ActionsAddRepoAccessToSelfHostedRunnerGroupInOrgNoContent, w http.ResponseWriter, span trace.Span) error {
