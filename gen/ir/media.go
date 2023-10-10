@@ -15,6 +15,8 @@ type Encoding string
 const (
 	// EncodingJSON is Encoding for json.
 	EncodingJSON Encoding = "application/json"
+	// EncodingJSON is Encoding for json.
+	EncodingManulJSON Encoding = "application/vnd.manul.v1+json"
 	// EncodingFormURLEncoded is Encoding for URL-encoded form.
 	EncodingFormURLEncoded Encoding = "application/x-www-form-urlencoded"
 	// EncodingMultipart is Encoding for multipart form.

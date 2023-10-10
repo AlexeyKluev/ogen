@@ -278,6 +278,19 @@ func (g *Generator) generateContents(
 					JSONStreaming: media.XOgenJSONStreaming,
 				}
 				return nil
+			case ir.EncodingManulJSON:
+				t, err := g.generateSchema(ctx, typeName, media.Schema, optional, nil)
+				if err != nil {
+					return errors.Wrap(err, "generate schema")
+				}
+
+				t.AddFeature("json")
+				result[ir.ContentType(parsedContentType)] = ir.Media{
+					Encoding:      ir.EncodingJSON,
+					Type:          t,
+					JSONStreaming: media.XOgenJSONStreaming,
+				}
+				return nil
 
 			case ir.EncodingFormURLEncoded:
 				t, err := g.generateFormContent(ctx, typeName, media, optional, encoding)
